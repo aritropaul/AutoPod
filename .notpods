@@ -1,0 +1,6 @@
+#exclude from pod install
+UIKit
+AVKit
+Foundation
+AppKit
+Speech
