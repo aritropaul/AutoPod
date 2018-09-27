@@ -14,9 +14,9 @@ Run setup
 
 ### How to use
 
-..* Make a project in Xcode, as usual.
-..* write whatever pods you need in the ViewController files.
-..* cd into the project directory
-..* `autopod`
+⋅⋅* Make a project in Xcode, as usual.
+⋅⋅* Write whatever pods you need in the ViewController files.
+⋅⋅* cd into the project directory
+⋅⋅*  `autopod`
 
 ##### Magic
