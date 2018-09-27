@@ -1,5 +1,5 @@
 # AutoPod
-Easier Pod installation
+Easier Cocoa Pods installation
 
 ### How to install
 Clone this repo
