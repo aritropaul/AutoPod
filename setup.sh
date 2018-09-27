@@ -7,5 +7,6 @@ cp .defpodfile ~/.defpodfile
 cp .maintain ~/.maintain
 
 #make alias
-echo "alias autopod='~/pi.sh'" > .bash_profile
+echo "alias autopod='sh ~/pi.sh'" >> ~/.bash_profile
 source ~/.maintain
+source ~/.bash_profile
