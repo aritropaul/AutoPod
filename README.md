@@ -1,0 +1,2 @@
+# AutoPod
+Easier Pod installation
