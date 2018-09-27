@@ -2,8 +2,8 @@
 
 #sync dirs
 alias syncautopod='f(){
-cp ~/pi.sh pi.sh
-cp ~/.defpodfile .defpodfile
-cp ~/.notpods notpods
-cp ~/.maintain maintain
-} f'
+cp ~/pi.sh pi.sh;
+cp ~/.defpodfile .defpodfile;
+cp ~/.notpods notpods;
+cp ~/.maintain maintain;
+}; f'
