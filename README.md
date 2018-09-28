@@ -37,6 +37,7 @@ This will make sure autopod doesn't search and download native libraries
 
 ### Sync your autopod repo with your mac
 
+`cd AutoPod`
 `$ podsync`
 
 
