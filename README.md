@@ -4,15 +4,15 @@ Easier Cocoa Pods installation
 ### How to install
 Clone this repo
 
-`git clone https://github.com/notACoder69/AutoPod.git`
+`$ git clone https://github.com/notACoder69/AutoPod.git`
  
  cd into the directory
  
- `cd AutoPod`
+ `$ cd AutoPod`
 
 Run setup
 
-`sh setup.sh`
+`$ sh setup.sh`
 
 
 ### How to use
@@ -23,7 +23,7 @@ Run setup
   
   * cd into the project directory
   
-  *  `autopod`  
+  *  `$ autopod`  
 
 ##### Magic
 ###### PRs are very much needed, and welcome :)
@@ -31,9 +31,19 @@ Run setup
 ### Create native library exceptions
 add native library names to the exception list
 
-    `notapod Name`
-
+    `$ notapod Name`
+    
 This will make sure autopod doesn't search and download native libraries
+
+### Sync your autopod repo with your mac
+
+`$ podsync`
+
+
+### Uninstall
+
+`$ unpod`
+
 
 ### To-do
  - [x] fix directory issues
