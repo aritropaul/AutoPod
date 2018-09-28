@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
+COLOR=='\033[1;35m'
+
 #Check if valid
-#!/bin/bash
 if [ ! -e *.xcodeproj ]
 then
     echo "Not an iOS project dir"
@@ -24,7 +25,7 @@ done
 cd ..
 
 #remove imports which are not pods
-grep -vf ~/.notpods .pods > .podinstall
+grep -vf ~/.conf/.notpods .pods > .podinstall
 rm -rf .pods
 
 awk '!x[$0]++' .podinstall > .podinstall2
@@ -32,10 +33,10 @@ mv .podinstall2 .podinstall
 
 #start podding
 pod init
-sed -i'' -e "s/ProjectName/${dir}/g" ~/.defpodfile
+sed -i'' -e "s/ProjectName/${dir}/g" ~/.conf/.defpodfile
 rm Podfile
 cp ~/.defpodfile Podfile
-sed -i'' -e "s/${dir}/ProjectName/g" ~/.defpodfile
+sed -i'' -e "s/${dir}/ProjectName/g" ~/.conf/.defpodfile
 
 #create new Podfile
 while read -r line
@@ -51,3 +52,4 @@ rm -rf Podfile.bak
 #install
 pod install
 
+echo "${COLOR}Thank you for using autopod!"
