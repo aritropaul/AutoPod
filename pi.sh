@@ -1,5 +1,13 @@
 #!/usr/bin/env bash
 
+#Check if valid
+#!/bin/bash
+if [ ! -e *.xcodeproj ]
+then
+    echo "Not an iOS project dir"
+    exit
+fi
+
 #Get Project Name
 dir=$(basename $(pwd))
 cd $dir
@@ -9,7 +17,7 @@ fi
 
 #read all .swift Files
 for i in `find . -name "*.swift" -type f`; do
-    grep "^import" $i | awk '{print $2 >> "../.pods" }'
+    grep "^import" $i | awk '{print $2 >> "../.pods"}'
 done
 
 #come out and process
@@ -18,6 +26,9 @@ cd ..
 #remove imports which are not pods
 grep -vf ~/.notpods .pods > .podinstall
 rm -rf .pods
+
+awk '!x[$0]++' .podinstall > .podinstall2
+mv .podinstall2 .podinstall
 
 #start podding
 pod init
