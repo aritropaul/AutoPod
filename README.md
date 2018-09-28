@@ -25,8 +25,6 @@ Run setup
   
   *  `$ autopod`  
 
-##### Magic
-###### PRs are very much needed, and welcome :)
 
 ### Create native library exceptions
 add native library names to the exception list
@@ -50,3 +48,6 @@ This will make sure autopod doesn't search and download native libraries
  - [ ] pod groups
  - [ ] contributing.md
  - [ ] paramters and help
+ - [ ] universal podsync
+
+###### PRs are very much needed, and welcome :)
