@@ -31,24 +31,18 @@ Run setup
 ### Create native library exceptions
 add native library names to the exception list
 
-    ```
     $ notapod Name
-    ```
     
 This will make sure autopod doesn't search and download native libraries
 
 ### Sync your autopod repo with your mac
-
-    ```
+   
     $ cd AutoPod
     $ podsync
-    ```
 
 ### Uninstall
 
-    ```
     $ unpod
-    ```
 
 
 ### To-do
