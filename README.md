@@ -23,8 +23,13 @@ Run setup
   
   * cd into the project directory
   
-  *  `autopod`
-  
+  *  `autopod`  
 
 ##### Magic
 ###### PRs are very much needed, and welcome :)
+
+
+### TODO
+ [ ] pod groups
+ [ ] contributing.md
+ [ ] paramters and help
