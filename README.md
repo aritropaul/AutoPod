@@ -30,6 +30,6 @@ Run setup
 
 
 ### TODO
- [ ] pod groups
- [ ] contributing.md
- [ ] paramters and help
+ - [ ] pod groups
+ - [ ] contributing.md
+ - [ ] paramters and help
