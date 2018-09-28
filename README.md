@@ -30,6 +30,7 @@ Run setup
 
 
 ### TODO
+ - [ ] fix directory issues
  - [ ] pod groups
  - [ ] contributing.md
  - [ ] paramters and help
