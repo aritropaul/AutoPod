@@ -28,8 +28,14 @@ Run setup
 ##### Magic
 ###### PRs are very much needed, and welcome :)
 
+### Create native library exceptions
+add native library names to the exception list
 
-### TODO
+    `notapod Name`
+
+This will make sure autopod doesn't search and download native libraries
+
+### To-do
  - [x] fix directory issues
  - [ ] pod groups
  - [ ] contributing.md
