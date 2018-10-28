@@ -51,3 +51,4 @@ This will make sure autopod doesn't search and download native libraries
  - [ ] universal podsync
 
 ###### PRs are very much needed, and welcome :)
+MIT LISCENSE
